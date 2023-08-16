@@ -511,7 +511,7 @@ testpath==0.5.0; python_version >= "3.7" \
 threadpoolctl==2.2.0; python_version >= "3.8" \
     --hash=sha256:e5a995e3ffae202758fa8a90082e35783b9370699627ae2733cd1c3a73553616 \
     --hash=sha256:86d4b6801456d780e94681d155779058759eaef3c3564758b17b6c99db5f81cb
-tornado==6.1; python_full_version >= "3.6.1" and python_version >= "3.7" \
+tornado==6.3.3; python_full_version >= "3.6.1" and python_version >= "3.7" \
     --hash=sha256:d371e811d6b156d82aa5f9a4e08b58debf97c302a35714f6f45e35139c332e32 \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:9de9e5188a782be6b1ce866e8a51bc76a0fbaa0e16613823fc38e4fc2556ad05 \
