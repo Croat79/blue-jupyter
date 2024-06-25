@@ -126,7 +126,7 @@ ipykernel==6.4.1; python_version >= "3.7" \
 ipython-genutils==0.2.0; python_version >= "3.7" \
     --hash=sha256:72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8 \
     --hash=sha256:eb2e116e75ecef9d4d228fdc66af54269afa26ab4463042e33785b887c628ba8
-ipython==7.28.0; python_version >= "3.7" \
+ipython==8.10.0; python_version >= "3.7" \
     --hash=sha256:f16148f9163e1e526f1008d7c8d966d9c15600ca20d1a754287cf96d00ba6f1d \
     --hash=sha256:2097be5c814d1b974aea57673176a924c4c8c9583890e7a5f082f547b9975b11
 ipywidgets==7.6.5 \
@@ -511,7 +511,7 @@ testpath==0.5.0; python_version >= "3.7" \
 threadpoolctl==2.2.0; python_version >= "3.8" \
     --hash=sha256:e5a995e3ffae202758fa8a90082e35783b9370699627ae2733cd1c3a73553616 \
     --hash=sha256:86d4b6801456d780e94681d155779058759eaef3c3564758b17b6c99db5f81cb
-tornado==6.1; python_full_version >= "3.6.1" and python_version >= "3.7" \
+tornado==6.4.1; python_full_version >= "3.6.1" and python_version >= "3.7" \
     --hash=sha256:d371e811d6b156d82aa5f9a4e08b58debf97c302a35714f6f45e35139c332e32 \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:9de9e5188a782be6b1ce866e8a51bc76a0fbaa0e16613823fc38e4fc2556ad05 \
@@ -574,3 +574,6 @@ widgetsnbextension==3.5.1 \
 zipp==1.0.0; python_version >= "2.7" \
     --hash=sha256:8dda78f06bd1674bd8720df8a50bb47b6e1233c503a4eed8e7810686bde37656 \
     --hash=sha256:d38fbe01bbf7a3593a32bc35a9c4453c32bc42b98c377f9bff7e9f8da157786c
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
