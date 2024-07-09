@@ -571,6 +571,6 @@ webencodings==0.5.1; python_version >= "3.7" \
 widgetsnbextension==3.5.1 \
     --hash=sha256:bd314f8ceb488571a5ffea6cc5b9fc6cba0adaf88a9d2386b93a489751938bcd \
     --hash=sha256:079f87d87270bce047512400efd70238820751a11d2d8cb137a5a5bdbaf255c7
-zipp==1.0.0; python_version >= "2.7" \
+zipp==3.19.1; python_version >= "2.7" \
     --hash=sha256:8dda78f06bd1674bd8720df8a50bb47b6e1233c503a4eed8e7810686bde37656 \
     --hash=sha256:d38fbe01bbf7a3593a32bc35a9c4453c32bc42b98c377f9bff7e9f8da157786c
